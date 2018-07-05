@@ -6,7 +6,9 @@ H4: 16 Lato (main body text)
 H5: 14 Lato 
 H6: 12 Lato
 */
-
+article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section{
+    overflow-x: hidden;
+}
 .w-60 {
     width: 60%;
 }
@@ -956,6 +958,11 @@ div.col-sm-2.col-6 {
     .change-position {
         float: left;
     }
+    .pa-10{
+        padding-left: 20px;
+        padding-right: 20px;
+        
+    }
 
     /*refer-friend*/
     .refer-friend-text-position {
@@ -1006,14 +1013,6 @@ div.col-sm-2.col-6 {
     }
     .l-banner-position-img {
         margin-bottom: 73px;
-    }
-    .l-banner-bus-hsi-position {
-        margin-top: 27px;
-        margin-bottom: 128px;
-    }
-    .l-banner-rhc-position {
-        margin-top: 27px;
-        margin-bottom: 100px;
     }
 
     .btn-position {
@@ -1107,6 +1106,10 @@ div.col-sm-2.col-6 {
 
     }
 */
+    .text-right{
+        text-align: left!important;
+        padding-left: 2%;
+    }
     .imgmb-20 {
         margin-bottom: 20px;
     }
